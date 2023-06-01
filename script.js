@@ -2,20 +2,26 @@
 const quizData = [
 
     {
-      question: 'What is the capital of France?',
-      options: ['Paris', 'London', 'Berlin', 'Rome'],
-      answer: 'Paris'
+      question: 'What is the largest organ in the human body?',
+      options: ['Liver', 'Brain', 'heart', 'Skin'],
+      answer: 'Skin'
     },
     {
-      question: 'Which is the largest planet in our solar system?',
-      options: ['Mars', 'Saturn', 'Jupiter', 'Earth'],
-      answer: 'Jupiter'
+      question: 'Who was the first President of the United States?',
+      options: ['George Washington', 'Abraham Lincoln', 'Thomas Jefferson', 'John F. Kennedy'],
+      answer: 'George Washington'
     },
     {
-      question: 'What year was JavaScript created?',
-      options: ['1995', '2001', '1985', '2008'],
-      answer: '1995'
-    }
+      question: 'What is the smallest unit of matter?',
+      options: ['Atom', 'Molecule', 'Cell', 'Electron'],
+      answer: 'Atom'
+    },
+    {
+        question: 'What is the smallest unit of matter?',
+        options: ['Atom', 'Molecule', 'Cell', 'Electron'],
+        answer: 'Atom'
+      }
+
   ];
   
   const quizContainer = document.getElementById('quiz-container');
